@@ -1,0 +1,57 @@
+[MasterPiec3+  version 1.0] [05/22/2020]
+
+• Layer 4 -> 2 methods » [all tested and working]
+• Layer 7 -> 4 methods » [all tested and working]
+
+• Python menus » [all tested and working]
+
+• Misc options » [all tested and working]
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 1.1] [22/05/2020]
+
+• Added 2 methods to the layer 4 menu 
+
+  -> DNS FLOOD TYPE A » [all tested and working]
+  -> SYN-ACK FLOOD » [all tested and working]
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 1.2] [24/05/2020]
+
+• Added login form with 4 users:
+  -> fisic
+  -> premium
+  -> masterpiece
+  -> guest
+
+• Removed games 
+• Improved visuals
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 1.3] [29/05/2020]
+
+• Added 1 method to the layer 4 menu 
+
+  -> UDP RAW FLOOD » [all tested and working]
+
+• Added auto install
+• Added UPDATES.txt
+• Improved visuals
+• Removed bugs
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 1.4] [01/06/2020]
+
+• Added 2 methods to the layer 4 menu 
+
+  -> PING OF DEATH » [all tested and working]
+  -> SHELL GUI » [all tested and working]
+
+• Added shell GUI auto install (CENTOS only)
+• Improved archives (more appealing)
+• Improved visuals
+• Removed bugs
