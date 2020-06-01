@@ -1,5 +1,7 @@
 ################################################################################
+
 INSTALLATION
+
 CENTOS
 
 sudo yum install dos2unix
@@ -15,6 +17,7 @@ chmod 777 *
 login and type install
 
 ################################################################################
+
 UBUNTU
 
 sudo apt-get install dos2unix 
@@ -30,6 +33,7 @@ chmod 777 *
 login and type install
 
 ################################################################################
+
 INFORMATIONS
 
 1. The main file is encrypted, this is for my own protection, against any scammers copying my code. 
