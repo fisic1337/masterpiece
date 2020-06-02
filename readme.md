@@ -62,6 +62,7 @@ login and type install
 
 # IMAGES <h1> 
 
+## COMMAND 1 <h2>
 
 ![MasterPiec3+ COMMAND 1](https://i.postimg.cc/26V5Wsvv/command1.png)
 
@@ -92,7 +93,7 @@ login and type install
 
 ################################################################################
 
-PERSONAL TOUGHTS
+# PERSONAL TOUGHTS <h1> 
 
 1. CENTOS 7 WILL BE YOUR NUMBER ONE CHOICE FOR USING MASTERPIECE
 
