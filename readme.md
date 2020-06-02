@@ -1,3 +1,8 @@
+
+
+![MasterPiec3+ Logo](https://i.postimg.cc/prz11dzH/m3.png)
+
+
 ################################################################################
 
 INSTALLATION
