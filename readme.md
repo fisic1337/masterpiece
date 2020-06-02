@@ -62,11 +62,11 @@ login and type install
 
 # IMAGES <h1> 
 
-## COMMAND 1 <h2>
+## COMMAND 1 (CENTOS)<h2>
 
 ![MasterPiec3+ COMMAND 1](https://i.postimg.cc/26V5Wsvv/command1.png)
 
-## COMMAND 2 <h2>
+## COMMAND 2 (CENTOS)<h2>
 
 ![MasterPiec3+ COMMAND 2](https://i.postimg.cc/ZqfRCb94/command2.png)
 
@@ -96,7 +96,7 @@ login and type install
 # PERSONAL TOUGHTS <h1> 
 
 -> CENTOS 7 WILL BE YOUR NUMBER ONE CHOICE FOR USING MASTERPIECE
-
+-> SHELL GUI STILL NOT AVAILABE FOR UBUNTU... UPDATING THIS LATER...
 
 
 
