@@ -1,103 +1,76 @@
+<p align="center">
+	<img src="https://i.postimg.cc/prz11dzH/m3.png">
+</p>
 
+# INSTALLATION
 
-![MasterPiec3+ Logo](https://i.postimg.cc/prz11dzH/m3.png)
+**Centos 7**
+- Follow these instructions when installing on Centos.
+```
+1. sudo yum install dos2unix 
+2. find /root/masterpiece -type f -exec dos2unix {} \;
+3. cd masterpiece 
+4. chmod 777 *
+5. ./masterpiece 
+6. login and type install
+```
+**Ubuntu 16.4**
+- Follow these instructions when installing on Ubuntu.
+```
+1. sudo apt-get install dos2unix 
+2. find /root/masterpiece -type f -exec dos2unix {} \;
+3. cd masterpiece 
+4. chmod 777 *
+5. ./masterpiece
+6. login and type install
+```
 
+# INFORMATIONS
 
-################################################################################
+- The main file is **encrypted**, this is for my own protection, against any *scammers* copying my code. 
+- **I DID NOT MAKE ALL THE SCRIPTS**, the ones i did you will probably find them encrypted inside their respective folders.
+- All the sources are on their respective files, if they aren't, the author probably didn't want any credit or I didn't found the author.
+- **YES**, this is "*INSPIRED*" in project titanium, BUT is way more complete and with way more features.
+- **I DID NOT STEAL ANYTHING**.
 
-# INSTALLATION <h1> 
+# PERSONAL TOUGHTS
 
--> CENTOS
+- Centos 7 will be your **number one** choice for using Maesterpiec3+
+- Shell GUI still not available for Ubuntu, might update this later...
 
-sudo yum install dos2unix
- 
-find /root/masterpiece -type f -exec dos2unix {} \;
+# IMAGES
 
-cd masterpiece 
+- **MAIN MENU INSTALLATION**
 
-chmod 777 *
+<p align="center">
+	<img src="https://i.postimg.cc/mk92X7mg/install.png">
+</p>
 
-./masterpiece 
+- **LAYER4 MENU**
 
-login and type install
+<p align="center">
+	<img src="https://i.postimg.cc/ZR25xwFQ/layer4.png">
+</p>
 
+- **LAYER7 MENU**
 
-################################################################################
+<p align="center">
+	<img src="https://i.postimg.cc/WbR4Df4F/layer7.png">
+</p>
 
+- **SHELL GUI LOGIN (CENTOS ONLY)**
 
--> UBUNTU 
+<p align="center">
+	<img src="https://i.postimg.cc/TYr3nqyk/loginsite.png">
+</p>
 
-sudo apt-get install dos2unix 
+- **SHELL GUI PANEL (CENTOS ONLY)**
 
-find /root/masterpiece -type f -exec dos2unix {} \;
+<p align="center">
+	<img src="https://i.postimg.cc/FKFzrdHT/booter.png">
+</p>
 
-cd masterpiece 
+# CONTACT INFORMATION
+- Join my Discord by clicking **[here](https://discord.gg/QqyFQHN)** if u wanna ask something or simply hangout. ✌️
 
-chmod 777 *
-
-./masterpiece
- 
-login and type install
-
-
-################################################################################
-
-# INFORMATIONS <h1> 
-
-1. The main file is encrypted, this is for my own protection, against any scammers copying my code. 
-
-2. I DID NOT MAKE ALL THE SCRIPTS, the ones i did you will probably find them encrypted inside their respective folders.
-
-3. All the sources are on their scripts, if they are not, probably the author didnt want any credit.
-
-4. YES, this is "INSPIRED" in project titanium, BUT is way more complete and with way more features.
-
-5. I DID NOT STEAL ANYTHING.
-
-6. JOIN MY DISCORD, I WILL PROBABLY POST UPDATES FIRST IN DISCORD -> https://discord.gg/QqyFQHN
-
-7. MasterPiec3+ CREATED BY FISIC | SPECIAL THANKS TO LEGEND
-
-################################################################################
-
-# IMAGES <h1> 
-
-## COMMAND 1 (CENTOS)<h2>
-
-![MasterPiec3+ COMMAND 1](https://i.postimg.cc/26V5Wsvv/command1.png)
-
-## COMMAND 2 (CENTOS)<h2>
-
-![MasterPiec3+ COMMAND 2](https://i.postimg.cc/ZqfRCb94/command2.png)
-
-## MAIN MENU INSTALLATION <h2>
-
-![MasterPiec3+ INSTALL](https://i.postimg.cc/mk92X7mg/install.png)
-
-## LAYER4 MENU <h2>
-
-![MasterPiec3+ LAYER 4 MENU](https://i.postimg.cc/ZR25xwFQ/layer4.png)
-
-## LAYER7 MENU <h2>
-
-![MasterPiec3+ LAYER 7 MENU](https://i.postimg.cc/WbR4Df4F/layer7.png)
-
-## SHELL GUI LOGIN (CENTOS ONLY) <h2>
-
-![MasterPiec3+ SHELL GUI LOGIN](https://i.postimg.cc/TYr3nqyk/loginsite.png)
-
-## SHELL GUI PANEL (CENTOS ONLY) <h2>
-
-![MasterPiec3+ SHELL GUI](https://i.postimg.cc/FKFzrdHT/booter.png)
-
-
-################################################################################
-
-# PERSONAL TOUGHTS <h1> 
-
--> CENTOS 7 WILL BE YOUR NUMBER ONE CHOICE FOR USING MASTERPIECE
-
--> SHELL GUI STILL NOT AVAILABE FOR UBUNTU... UPDATING THIS LATER...
-
-
-
+- **MasterPiec3+ created by FISIC | SPECIAL THANKS TO LEGEND**
