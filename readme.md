@@ -2,6 +2,10 @@
 	<img src="https://i.postimg.cc/prz11dzH/m3.png">
 </p>
 
+<p align="center">
+	https://www.youtube.com/watch?v=tKx0wYmr3T4&
+</p>
+
 # INSTALLATION
 
 **Centos 7**
@@ -72,5 +76,7 @@
 
 # CONTACT INFORMATION
 - Join my Discord by clicking **[here](https://discord.gg/QqyFQHN)** if u wanna ask something or simply hangout. ✌️
+
+- Email: masterpiec3plus@gmail.com
 
 - **MasterPiec3+ created by FISIC | SPECIAL THANKS TO LEGEND**
