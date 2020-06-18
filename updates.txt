@@ -55,3 +55,14 @@
 • Improved archives (more appealing)
 • Improved visuals
 • Removed bugs
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 1.5] [18/06/2020]
+
+• Added 1 methods to the layer 7 menu 
+
+  -> HIBERNET PROXY FLOOD » [all tested and working]
+
+• Improved visuals
+• Removed bugs
