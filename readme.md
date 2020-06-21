@@ -11,22 +11,20 @@
 **Centos 7**
 - Follow these instructions when installing on Centos.
 ```
-1. sudo yum install dos2unix 
-2. find /root/masterpiece -type f -exec dos2unix {} \;
-3. cd masterpiece 
-4. chmod 777 *
-5. ./masterpiece 
-6. login and type install
+1. git clone https://github.com/fisic1337/masterpiece.git 
+2. cd masterpiece 
+3. chmod 777 *
+4. ./masterpiece 
+5. login and type install
 ```
 **Ubuntu 16.4**
 - Follow these instructions when installing on Ubuntu.
 ```
-1. sudo apt-get install dos2unix 
-2. find /root/masterpiece -type f -exec dos2unix {} \;
-3. cd masterpiece 
-4. chmod 777 *
-5. ./masterpiece
-6. login and type install
+1. git clone https://github.com/fisic1337/masterpiece.git 
+2. cd masterpiece 
+3. chmod 777 *
+4. ./masterpiece
+5. login and type install
 ```
 
 # INFORMATIONS
