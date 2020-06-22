@@ -96,3 +96,13 @@
 • Removed bugs
 • Cleaned the code
 • Readme changes
+------------------------------------------------------------------
+
+[MasterPiec3+  version 1.9] [22/06/2020]
+
+• Improved visuals
+• Removed bugs
+• Cleaned the code
+• Readme changes
+
+[PROBABLY THE LAST VERSION TO BE REALEASE FOR A WHILE]
