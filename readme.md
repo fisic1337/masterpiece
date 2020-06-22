@@ -38,6 +38,7 @@
 - All the sources are on their respective files, if they aren't, the author probably didn't want any credit or I didn't found the author.
 - **YES**, this is "*INSPIRED*" in project titanium, BUT is way more complete and with way more features.
 - **I DID NOT STEAL ANYTHING**.
+- **PLEASE USE IT ONLY FOR TESTING PURPOSES**.
 
 # PERSONAL TOUGHTS
 
