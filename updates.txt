@@ -106,3 +106,18 @@
 • Readme changes
 
 [PROBABLY THE LAST VERSION TO BE REALEASE FOR A WHILE]
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 2.0] [23/06/2020]
+
+ Added 1 methods to the layer 7 menu 
+
+  -> SLOWLORIS » [all tested and working]
+
+• Added dorker
+• Added ty notes
+• Improved visuals
+• Removed bugs
+• Cleaned the code
+• Readme changes
