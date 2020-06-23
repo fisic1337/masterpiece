@@ -9,6 +9,7 @@ import urllib.request
 import os
 import sys
 
+os.system("clear");
 
 print('''
 

@@ -117,7 +117,7 @@ if __name__ == '__main__':
 		usage()
 		sys.exit()
 	parse_parameters(sys.argv[1:])
-	print "Debug : thread=%d time=%d %s"%(int(num_thread),int(interval),url)
+	print ""%(int(num_thread),int(interval),url)
 	if url.count('/') == 2:
 		url = url + "/"
 	m = re.search('http\://([^/]*)/?.*', url)

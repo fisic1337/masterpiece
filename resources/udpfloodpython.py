@@ -13,7 +13,7 @@ def attack(ip, port, time, size):
         port = max(1, min(65535, port))
         
     fmr = ''
-    fmt = ' ATTACKING {ip} ON {port} FOR {time} WITH A TOTAL OF {size} BYTES'.format(
+    fmt = ''.format(
         ip=ip,
         port='PORT {port}'.format(port=port) if port else 'RANDOM PORTS',
         time='{time} SECONDS'.format(time=time) if str(time).isdigit() else 'UNLIMITED TIME',

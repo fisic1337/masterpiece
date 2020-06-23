@@ -13,8 +13,6 @@ if platform == "linux" or platform == "linux2":
     os.system("clear")
 elif platform == "win32":
     os.system("cls")
-else:
-    print "\033[31mUNKNOWN SYSTEM DETECTED\033[39m"
 
 
 count = 0
@@ -30,7 +28,8 @@ print"""
                               █   ON YOUR EMAIL SECURITY CONFIGURATIONS   █
                               ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
       
-                                                             \033[1;32mcoded by fisic\033[39m """
+                                                             \033[1;32mcoded by fisic\033[39m 
+                                                             """
 
 try:
     print ""
