@@ -120,4 +120,28 @@
 • Improved visuals
 • Removed bugs
 • Cleaned the code
-• Readme changes
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 2.1] [24/06/2020]
+
+• Added layer 3 menu
+
+ Added 2 methods to the layer 3 menu
+
+  -> POD » [all tested and working]
+  -> SMURF ATTACK » [all tested and working]
+
+ Added 2 methods to the layer 4 menu 
+
+  -> NTP AMPLIFICATION » [all tested and working]
+  -> TCP FLOOD » [all tested and working]
+
+• Removed dns flood
+• Updated themes
+• Updated interface
+• Updated Other commands
+• Improved visuals
+• Removed bugs
+
+
