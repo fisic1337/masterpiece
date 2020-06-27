@@ -2,5 +2,5 @@ wget
 requests
 termcolor
 PySocks
-sty
 scapy
+sty
