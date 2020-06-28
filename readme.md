@@ -77,8 +77,9 @@
 	<img src="https://i.postimg.cc/xTkQxZyX/layer3.png">
 </p>
 <br></br>
+
 # CONTACT INFORMATION
-- Join my Discord by clicking [here](https://discord.gg/QqyFQHN) if u wanna ask something or simply hangout. ✌️
+- Join my Discord by clicking [here](http://discord.gg/QqyFQHN) if u wanna ask something or simply hangout. ✌️
 
 - Email: masterpiec3plus@gmail.com
 
