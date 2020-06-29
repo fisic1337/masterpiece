@@ -42,8 +42,7 @@
 
 # PERSONAL TOUGHTS
 
-- Centos 7 will be your **number one** choice for using Maesterpiec3+
-- Shell GUI still not available for Ubuntu, might update this later...
+- Centos 7, or Ubuntu 16.04/18.04 will be your **number one** choice for using Maesterpiec3+
 
 # IMAGES
 
