@@ -19,7 +19,7 @@
 6. ./masterpiece 
 7. login and type install
 ```
-**Ubuntu 16.4**
+**Ubuntu or Kali Linux**
 - Follow these instructions when installing on Ubuntu.
 ```
 1. git clone https://github.com/fisic1337/masterpiece.git 
