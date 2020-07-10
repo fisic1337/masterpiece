@@ -163,3 +163,39 @@
 • Added status page
 • Improved visuals
 • Removed bugs
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 2.3] [27/06/2020]
+
+
+
+ Added 1 methods to the layer 4 menu 
+
+  -> UDP-BW DRAIN
+
+
+• Updated Other commands
+• Improved visuals
+• Removed Ntp amp
+• Removed bugs
+
+------------------------------------------------------------------
+
+[MasterPiec3+  version 2.4] [10/07/2020]
+
+
+
+ Added 2 methods to the layer 4 menu 
+
+  -> NTP AMP
+  -> MEMCACHE AMP
+
+ Added 1 methods to the layer 3 menu 
+
+  -> ICMP FLOOD
+
+• Updated Other commands
+• Improved visuals
+• Removed bugs
+
