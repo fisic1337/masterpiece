@@ -168,8 +168,6 @@
 
 [MasterPiec3+  version 2.3] [27/06/2020]
 
-
-
  Added 1 methods to the layer 4 menu 
 
   -> UDP-BW DRAIN
@@ -183,8 +181,6 @@
 ------------------------------------------------------------------
 
 [MasterPiec3+  version 2.4] [10/07/2020]
-
-
 
  Added 2 methods to the layer 4 menu 
 
@@ -202,8 +198,6 @@
 ------------------------------------------------------------------
 
 [MasterPiec3+  version 2.5] [12/07/2020]
-
-
 
  Added amplification menu
 
