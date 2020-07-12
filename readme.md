@@ -52,7 +52,7 @@ In case of problems opening masterpiece do this before:
 
 # PERSONAL TOUGHTS
 
-- Centos 7, or Ubuntu 16.04/18.04 will be your **number one** choice for using Maesterpiec3+
+- Centos 7, or Ubuntu 16.04/18.04 will be your **number one** choice for using Masterpiec3+
 
 # IMAGES
 
